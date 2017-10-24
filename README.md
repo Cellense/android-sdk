@@ -14,7 +14,7 @@ Infinario Android SDK is available in this Git repository: <a href="https://git
 After completing the steps above the Infinario Android SDK is now included in your app and ready to be used.
 <h2>Usage</h2>
 <h3>Basic Interface</h3>
-Once the IDE is set up, you may start using the Infinario library in your code. First you need to you need to know the URI of your Infinario API instance, usually <code>https://api.infinario.com</code> and your <code>projectToken</code> (Overview page in the web application). To interact with the Infinario SDK, you need to obtain an instance of the Infinario class using the <code>application's context</code> and <code>projectToken</code> (the URI parameter is optional):
+Once the IDE is set up, you may start using the Infinario library in your code. First you need to you need to know the URI of your Infinario API instance  (usually ```https://api.exponea.com ``` or ```https://api.infinario.com ```) and your <code>projectToken</code> (Overview page in the web application). To interact with the Infinario SDK, you need to obtain an instance of the Infinario class using the <code>application's context</code> and <code>projectToken</code> (the URI parameter is optional):
 <pre><code>// Use public Infinario instance
 Infinario infinario = Infinario.getInstance(getApplicationContext(), projectToken);
 

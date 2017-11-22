@@ -1,8 +1,8 @@
 <h1>Infinario Android SDK</h1>
-Infinario Android SDK is available in this Git repository: <a href="https://github.com/infinario/android-sdk">https://github.com/infinario/android-sdk</a>.
+Infinario Android SDK is available in this Git repository: <a href="https://github.com/cellense/android-sdk">https://github.com/infinario/android-sdk</a>.
 <h2>Installation (Android Studio / Gradle)</h2>
 <ol>
-	<li>Download the <a href="https://github.com/infinario/android-sdk/releases">latest release</a> of the Android SDK</li>
+	<li>Download the <a href="https://github.com/cellense/android-sdk/releases">latest release</a> of the Android SDK</li>
 	<li>Unzip / untar the downloaded SDK into a preferred directory</li>
 	<li>In Android Studio, click <strong>File -&gt; New -&gt; Import Module...</strong> or in older version click <strong>File -&gt; Import Module...</strong></li>
 	<li>In the opened dialog window, locate the unzipped Android SDK directory and click <strong>Finish</strong></li>

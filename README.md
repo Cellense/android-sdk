@@ -1,5 +1,5 @@
 <h1>Infinario Android SDK</h1>
-Infinario Android SDK is available in this Git repository: <a href="https://github.com/cellense/android-sdk">https://github.com/infinario/android-sdk</a>.
+Infinario Android SDK is available in this Git repository: <a href="https://github.com/cellense/android-sdk">https://github.com/cellense/android-sdk</a>.
 <h2>Installation (Android Studio / Gradle)</h2>
 <ol>
 	<li>Download the <a href="https://github.com/cellense/android-sdk/releases">latest release</a> of the Android SDK</li>

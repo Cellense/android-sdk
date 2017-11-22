@@ -279,6 +279,15 @@ public class Infinario {
     }
 
     /**
+     * Return customers cookie
+     *
+     * @return string containing customer's cookie
+     */
+    public String getCookie() {
+        return preferences.getCookieId();
+    }
+
+    /**
      * Updates customer's properties. Cannot be called prior to the identification.
      *
      * @param properties key-value customer's properties.

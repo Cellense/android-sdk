@@ -58,6 +58,9 @@ properties.put("age", 34);
 infinario.update(properties);
 </code></pre>
 
+<h4>Get customers cookie</h4>
+You can get current customers cookie via <code>infinario.getCookie()</code> method.
+
 <h2>Automatic events</h2>
 <p>
 INFINARIO Android SDK automatically tracks some events on its own. Automatic events ensure that basic user data gets tracked with as little effort as just including the SDK into your game. Automatic events include sessions, installation, identification and payments tracking.
@@ -228,7 +231,7 @@ public void onPurchaseResponse(final PurchaseResponse response) {
 </code></pre>
 
 <p>
-Purchase events (called <code>hard_purchase</code>) contain all basic information about the device (OS, OS version, SDK, SDK version and device model) combined with additional purchase attributes <strong>brutto</strong>, <strong>currency</strong>, <strong>product_id</strong> and <strong>product_title</strong>. <strong>Brutto</strong> attribute contains price paid by the player. Attribute <strong>product_title</strong> consists of human-friendly name of the bought item (e.g. Silver sword) and <strong>product_id</strong> corresponds to the product ID for the in-app purchase as defined in your Google Play / Amazon Developer Console. Example of purchase event: 
+Purchase events (called <code>hard_purchase</code>) contain all basic information about the device (OS, OS version, SDK, SDK version and device model) combined with additional purchase attributes <strong>brutto</strong>, <strong>currency</strong>, <strong>product_id</strong> and <strong>product_title</strong>. <strong>Brutto</strong> attribute contains price paid by the player. Attribute <strong>product_title</strong> consists of human-friendly name of the bought item (e.g. Silver sword) and <strong>product_id</strong> corresponds to the product ID for the in-app purchase as defined in your Google Play / Amazon Developer Console. Example of purchase event:
 </p>
 
 <pre><code>{
